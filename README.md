@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repo](https://github.com/SlothSan/frontend-mentor-advice-generator-app)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://slothsan.github.io/frontend-mentor-advice-generator-app/)
 
 ## My process
 
