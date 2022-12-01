@@ -30,7 +30,7 @@ function App() {
                     <>
                         <AdviceHeader className={"advice-header"} adviceId={advice.id}/>
                         <AdviceText className={"advice-text"} advice={advice.advice}/>
-                        <Divider className={"mobile-divider"}/>
+                        <Divider className={"divider"}/>
                         <DiceButton className={"dice-button"} onClick={handleDiceClick}/>
                     </>
                 }
