@@ -53,6 +53,7 @@
     bottom: -32px;
     left: 140px;
     cursor: pointer;
+    transition: box-shadow 0.2s;
   }
 
   .dice-button:hover {
@@ -64,6 +65,7 @@
 @media (min-width: 560px) {
   .quote-container {
     min-width: 540px;
+    margin: auto;
 
     .advice-header {
       font-size: 0.8rem;
@@ -78,6 +80,10 @@
 
     .divider {
       width: 444px;
+    }
+
+    .dice-button {
+      left: 239px;
     }
   }
 
