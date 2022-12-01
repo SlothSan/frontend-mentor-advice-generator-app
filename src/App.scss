@@ -9,18 +9,35 @@
 }
 
 .quote-container {
-  height: 315px;
+  height: auto;
+  min-height: 315px;
   width: 343px;
   background-color: $dark-grayish-blue;
   border-radius: 10px;
   margin: 120px auto 0 auto;
   display: flex;
   flex-direction: column;
+
   .advice-header {
     color: $neon-green;
     font-size: 0.68rem;
     font-weight: bold;
     letter-spacing: 3.45px;
     margin: 40px auto 40px auto;
+  }
+
+  .advice-text {
+    color: $light-cyan;
+    font-size: 1.5rem;
+    letter-spacing: -0.26px;
+    width: 295px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+  }
+
+  .mobile-divider {
+    width: 295px;
+    height: 16px;
+    margin: 0 auto;
   }
 }
